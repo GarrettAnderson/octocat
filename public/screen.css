@@ -64,8 +64,10 @@ figcaption {
     border-bottom: 1px solid #cacaca;
 }
 
-.octocatContent ul {
+.octocatContentList {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .octocatContent img {
