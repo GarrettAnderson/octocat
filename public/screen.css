@@ -35,12 +35,29 @@ header {
     padding-right: 2em;
 }
 
+/* Main Section - octocate figure grid */
+
+/* the figure width */
+figure {
+    width: 27rem;
+}
+
+figcaption {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .octocatContent ul {
     list-style: none;
 }
 
 .octocatContent img {
-    width: 26.5rem;
+    width: 100%;
+}
+
+.octocatMainImg {
+    border: solid #ebebeb;
 }
 
 .octocatContent .creditIcon {
