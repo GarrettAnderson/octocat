@@ -9,22 +9,27 @@ html {
 body {
     margin: 0;
     min-height: 100%;
+    font: 16px helvetica, arial, freesans, clean, sans-serif;
 }
 
 header {
     background-color: #f0f0f0;
     height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logoImg {
     width: 12em;
+    padding-left: 2em;
 }
 
 .navBar {
     height: 100%;
 }
 
-.navBar ul {
+.navBarList {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -32,7 +37,17 @@ header {
 }
 
 .navBar li {
+    padding-right: 1rem;
+}
+
+.navBarList li:last-child {
     padding-right: 2em;
+}
+
+.navBar li > a {
+    text-decoration: none;
+    font-size: 13px !important;
+    font-weight: bold;
 }
 
 /* Main Section - octocate figure grid */
