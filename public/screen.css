@@ -167,6 +167,10 @@ figcaption p:nth-child(2) a {
         color: #4183c4;
         cursor: pointer;
     }
+
+    .octocatMainImg {
+        border: none;
+    }
 }
 
 /* media query for between 600px and 1024px */
