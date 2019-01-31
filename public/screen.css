@@ -168,3 +168,5 @@ figcaption p:nth-child(2) a {
         cursor: pointer;
     }
 }
+
+/* media query for between 600px and 1024px */
