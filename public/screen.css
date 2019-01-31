@@ -55,7 +55,11 @@ li {
     color: #000;
 }
 
-/* Main Section - octocate figure grid */
+.navBar li > a:hover {
+    color: #4183c4;
+}
+
+/* Main Section - octocat figure grid */
 
 /* the figure width */
 figure {
@@ -74,9 +78,13 @@ figcaption p:first-child {
     font-weight: bold;
 }
 
+figcaption p:nth-child(2) {
+    color: #777777;
+    font-weight: bold;
+}
+
 figcaption p:nth-child(2) a {
     color: #000;
-    font-weight: bold;
     text-decoration: none;
 }
 
@@ -84,6 +92,9 @@ figcaption p:nth-child(2) a {
     /* list-style: none; */
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0px;
 }
 
 .octocatContent img {
