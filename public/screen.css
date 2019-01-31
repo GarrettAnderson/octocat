@@ -66,6 +66,10 @@ figure {
     width: 27rem;
 }
 
+figure img {
+    border: 3px solid #ebebeb;
+}
+
 figcaption {
     display: flex;
     justify-content: space-between;
@@ -101,9 +105,8 @@ figcaption p:nth-child(2) a {
     width: 100%;
 }
 
-.octocatMainImg {
-    border: solid #ebebeb;
-}
+/* removed declaration bc class not necessary on the image .octocatMainImg {
+} */
 
 .octocatContent .creditIcon {
     width: 1.25em;
@@ -139,7 +142,8 @@ figcaption p:nth-child(2) a {
     }
 
     figure {
-        width: 10rem;
+        width: 22rem;
+        border: 3px solid #cacaca;
     }
 
     figcaption {
@@ -147,6 +151,10 @@ figcaption p:nth-child(2) a {
         flex-direction: column;
         align-items: center;
         border-bottom: 1px solid #cacaca;
+    }
+
+    figure img {
+        border: none;
     }
 
     figcaption p:nth-child(2) {
@@ -168,9 +176,9 @@ figcaption p:nth-child(2) a {
         cursor: pointer;
     }
 
-    .octocatMainImg {
+    /* .octocatMainImg {
         border: none;
-    }
+    } */
 }
 
 /* media query for between 600px and 1024px */
